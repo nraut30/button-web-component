@@ -34,6 +34,7 @@ export const buttonBorder = (color) => {
 }
 
 export const backGroundColorHandler = (color) =>{
+    console.log("color", color)
     switch(color){
         case "primary":
             return "#736D9D";
